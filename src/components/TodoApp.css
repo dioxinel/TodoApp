@@ -1,0 +1,15 @@
+.todoApp {
+  display: flex;
+}
+
+.activeCategory {
+  background-color: aquamarine;
+}
+
+.completedTodo {
+  text-decoration: line-through;
+}
+
+.uncompletedTodo {
+  text-decoration: none;
+}
