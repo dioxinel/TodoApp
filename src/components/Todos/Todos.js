@@ -1,8 +1,8 @@
 import React from "react";
-import { useStore } from "../stores/createStore";
+import { useStore } from "../../stores/createStore";
 import { values } from "mobx";
 import { observer } from "mobx-react";
-import { TodoItem } from "./TodoItem";
+import TodoItem from "./TodoItem";
 
 export function Todos() {
   const store = useStore();

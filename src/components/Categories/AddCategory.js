@@ -1,5 +1,5 @@
 import React from "react";
-import { useStore } from "../stores/createStore";
+import { useStore } from "../../stores/createStore";
 
 function AddCategory() {
   const store = useStore();
@@ -10,7 +10,7 @@ function AddCategory() {
     input.value = "";
   }
   return (
-    <div>
+    <div className={"addItem"}>
       <input id={"input"}></input>
       <button onClick={handleClick}>Add Category</button>
     </div>

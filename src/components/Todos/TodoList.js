@@ -4,7 +4,7 @@ import AddTodo from "./AddTodo";
 
 function TodoList() {
   return (
-    <div>
+    <div className={"list"}>
       <Todos />
       <AddTodo />
     </div>

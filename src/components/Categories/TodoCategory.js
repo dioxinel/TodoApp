@@ -4,7 +4,7 @@ import AddCategory from "./AddCategory";
 
 export function TodoCategory() {
   return (
-    <div>
+    <div className={"list"}>
       <Categories />
       <AddCategory />
     </div>

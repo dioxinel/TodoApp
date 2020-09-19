@@ -1,6 +1,6 @@
 import React from "react";
-import TodoList from "./TodoList";
-import { TodoCategory } from "./TodoCategory";
+import TodoList from "./Todos/TodoList";
+import { TodoCategory } from "./Categories/TodoCategory";
 import { observer } from "mobx-react";
 import "./TodoApp.css";
 

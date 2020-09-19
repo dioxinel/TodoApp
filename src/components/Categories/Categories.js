@@ -1,8 +1,8 @@
 import React from "react";
-import { useStore } from "../stores/createStore";
+import { useStore } from "../../stores/createStore";
 import { values } from "mobx";
 import { observer } from "mobx-react";
-import { CategoryItem } from "./CategoryItem";
+import CategoryItem from "./CategoryItem";
 
 export function Categories() {
   const store = useStore();

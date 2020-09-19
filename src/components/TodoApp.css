@@ -1,5 +1,17 @@
 .todoApp {
   display: flex;
+  width: 600px;
+  background-color: gray;
+  justify-content: space-between;
+}
+
+.list {
+  align-items: center;
+  border: black 3px solid;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  width: 300px;
 }
 
 .activeCategory {
@@ -8,8 +20,24 @@
 
 .completedTodo {
   text-decoration: line-through;
+  background-color: teal;
 }
 
 .uncompletedTodo {
   text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+  background-color: violet;
+  border-radius: 5px;
+  margin: 5px;
+  margin-left: -30px;
+  text-align: center;
+  line-height: 30px;
+  width: 250px;
+}
+
+.addItem {
+  margin-bottom: 10px;
 }
